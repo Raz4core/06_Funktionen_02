@@ -8,14 +8,6 @@
 4. Ausgabe in Konsole
 */
 
-
-// module: addition a + b / test:
-
-output(add(2,3));
-output(add(2,-3));
-output(add(2.1,1.1));
-
-
 //add(2,3)
 function add(a,b) {
     let c = a + b;
@@ -30,7 +22,14 @@ function output(outPutData) {
     console.log(outPutData);
 }
 
+// module: Subtraktion.
 
+output(subtract(2,10));
+output(subtract(2,1));
+output(subtract(2.1,1.1));
+function subtract(a,b) {
+    return a-b;
+}
 
 // module: addition a + b |  test:
 output(add(2,3));
