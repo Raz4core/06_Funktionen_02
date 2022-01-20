@@ -22,19 +22,27 @@ function output(outPutData) {
     console.log(outPutData);
 }
 
+// module: Multiplikation.
+// output(multiply(3,3));
+// output(multiply(-3,2));
+// output(multiply(0,100));
+function multiply(a,b) {
+    return a*b;
+}
+
 // module: Subtraktion.
 
-output(subtract(2,10));
-output(subtract(2,1));
-output(subtract(2.1,1.1));
+// output(subtract(2,10));
+// output(subtract(2,1));
+// output(subtract(2.1,1.1));
 function subtract(a,b) {
     return a-b;
 }
 
 // module: addition a + b |  test:
-output(add(2,3));
-output(add(2,-3));
-output(add(2.1,1.1));
+// output(add(2,3));
+// output(add(2,-3));
+// output(add(2.1,1.1));
 function add(a,b) {
    return a + b; 
 }
