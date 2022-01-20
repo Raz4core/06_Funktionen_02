@@ -22,7 +22,18 @@ function output(outPutData) {
     console.log(outPutData);
 }
 
+//module: Division.
+output(divide(10,2));
+output(divide(5,5));
+
+
+function divide(a,b) {
+    return a/b;
+}
+
+
 // module: Multiplikation.
+
 // output(multiply(3,3));
 // output(multiply(-3,2));
 // output(multiply(0,100));
