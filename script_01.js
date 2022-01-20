@@ -9,6 +9,27 @@
 */
 
 
+// module: addition a + b / test:
+
+output(add(2,3));
+output(add(2,-3));
+output(add(2.1,1.1));
+
+
+//add(2,3)
+function add(a,b) {
+    let c = a + b;
+    return c;
+}
+
+
+// module: console output / test:
+// output("Hello");
+// output("20");
+function output(outPutData) {
+    console.log(outPutData);
+}
+
 
 
 /*** Späßle *****/
@@ -18,22 +39,22 @@
  wir gehen in den Wienerwald. 
 */
 
-/*
- servieren(anrichten(gemuesekoch(),saucenkoch()));
 
-function servieren(teller) {
-    console.log("Einmal einen " + teller +  ", Bitte sehr!")
-}
+//  servieren(anrichten(gemuesekoch(),saucenkoch()));
 
-function anrichten(kartoffeln,soße) {
-    return "Teller mit: "+ kartoffeln + " " + soße;
-}
+// function servieren(teller) {
+//     console.log("Einmal einen " + teller +  ", Bitte sehr!")
+// }
 
-function gemuesekoch(){
-    return "gekochte Kartoffeln";
- }
+// function anrichten(kartoffeln,soße) {
+//     return "Teller mit: "+ kartoffeln + " " + soße;
+// }
+
+// function gemuesekoch(){
+//     return "gekochte Kartoffeln";
+//  }
  
- function saucenkoch() {
-     return "lecker Sauce";
- }
- */
+//  function saucenkoch() {
+//      return "lecker Sauce";
+//  }
+ 
